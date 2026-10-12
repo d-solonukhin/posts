@@ -1,0 +1,60 @@
+:root {
+  --color-black-full: rgb(0 0 0);
+  --color-black-default: rgb(43 43 43);
+  --color-black-default-060: rgb(43 43 43 / 0.6);
+  --color-black-900: rgb(64 64 64);
+  --color-black-800: rgb(85 85 85);
+  --color-black-700: rgb(107 107 107);
+  --color-black-600: rgb(128 128 128);
+  --color-black-500: rgb(149 149 149);
+  --color-black-400: rgb(170 170 170);
+  --color-black-300: rgb(191 191 191);
+  --color-black-200: rgb(213 213 213);
+  --color-black-100: rgb(234 234 234);
+  --color-black-50: rgb(244 244 244);
+  --color-black-30: rgb(249 249 249);
+
+  --color-white: rgb(255 255 255);
+
+  --color-gray-default: rgb(213 213 213);
+
+  --color-swamp: rgb(233 239 235);
+
+  --color-red-default: rgb(153 27 27);
+  --color-red-crimson: rgb(176 25 60);
+  --color-red-coral: rgb(255 93 94);
+  --color-red-light: rgb(254 226 226);
+  --color-red-light-050: rgb(254 226 226 / 0.5);
+  --color-red-fade: rgb(255 242 244);
+  --color-red-orange: rgb(253 159 114);
+  --color-red-semi-light: rgb(255 204 205);
+
+  --color-blue-default: rgb(68 96 138);
+
+  --color-orange-default: rgb(155 74 0);
+  --color-orange-light: rgb(241 117 3);
+  --color-orange-fade: rgb(254 241 230);
+
+  --color-green-meadow: rgb(110 208 125);
+
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --sans: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-black-full);
+  background-color: var(--color-white);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin: 0;
+  padding: 0;
+}

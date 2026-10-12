@@ -1,0 +1,21 @@
+.live-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.live-status--on,
+.live-status--off {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-red-default);
+}
+
+.live-status--on {
+  background: var(--color-green-meadow);
+  box-shadow: 0 0 0 4px rgba(47, 125, 74, 0.14);
+}

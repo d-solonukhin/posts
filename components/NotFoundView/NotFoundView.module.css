@@ -1,0 +1,23 @@
+.not-found-view__number {
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.not-found-view__title {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.not-found-view__description {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.not-found-view__link {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: inherit;
+  font-weight: 600;
+}
